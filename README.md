@@ -4,7 +4,7 @@ python
 CopyEdit
 import xml.etree.ElementTree as ET
 
-tree = ET.parse('road_profile.xml')
+C:\Users\AliJahromiContractor\Desktop\Scout Motors\Road Profiles\RPROF = ET.parse('road_profile.xml')
 root = tree.getroot()
 
 with open('road_profile.rdf', 'w') as rdf:
