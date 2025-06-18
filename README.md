@@ -4,10 +4,10 @@ python
 CopyEdit
 import xml.etree.ElementTree as ET
 
-C:\Users\AliJahromiContractor\Desktop\Scout Motors\Road Profiles\RPROF = ET.parse('road_profile.xml')
+C:\Users\AliJahromiContractor\Desktop\Scout Motors\Road Profiles\RPROF = ET.parse('bump_30X120_v4.xml')
 root = tree.getroot()
 
-with open('road_profile.rdf', 'w') as rdf:
+with open('bump_30X120_v4.rdf', 'w') as rdf:
     rdf.write("# Distance LF RF LR RR\n")
     for point in root.findall('point'):
         dist = point.find('distance').text
